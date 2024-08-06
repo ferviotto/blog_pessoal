@@ -1,39 +1,26 @@
 import React from 'react';
 import './App.css';
 import Home from './paginas/home/Home';
+import Navbar from './Components/NavBar/NavBar';
+import Footer from './Components/Footer/Footer';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Login from './paginas/Login/Login';
 
 function App() {
   return (
     <>
-    <Home/>
+    <BrowserRouter>
+        <Navbar />
+          <div className='min-h-[80vh]'>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/home" element={<Home />} />
+            </Routes>
+          </div>
+          <Footer />
+        </BrowserRouter>
     </>
 );
 }
 export default App;
-
-/*import React from 'react';
-import './App.css';
-import Home from './paginas/home/Home';
-
-function App() {
-  return (
-    <>
-    <Home/>
-    </>
-);
-}
-export default App;*/
-
-/*import React from 'react';
-import './App.css';
-
-function App() {
-  return (
-    <>
-    <h1 className="text-3xl font-bold text-pink-500 underline text-center">
-      Hello world!
-    </h1>
-    </>
-);
-}
-export default App;*/
