@@ -92,11 +92,3 @@ Descrição:
 19. Inserção das variáveis de ambiente no Webservice para conectar com o Banco de dados na Nuvem.
 20. Efetuação do Deploy.
 21. Testes das APIs na nuvem com o Insomnia.
-
-## Sétima Etapa
-
-Objetivo: criação da página Home utilizando HTML, CSS, TypeScript e React.
-
-Descrição: 
-1. Criação do projeto pelo Vite, instalando o Node.js, Yarn e VSC.
-2. Estilização de componentes React com CSS, especificamente a página Home.
