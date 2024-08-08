@@ -1,5 +1,5 @@
 import React from 'react';
-import homeLogo from '../../assets/taylor.png';
+import homeLogo from '../../assets/swift.png';
 import './Home.css';
 
 const Home: React.FC = () => {
